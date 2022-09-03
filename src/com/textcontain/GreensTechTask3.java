@@ -17,7 +17,8 @@ public static void main(String[]args) {
 		WebElement txtAboutSelenium = driver.findElement(By.xpath("//div[@class='card-body']"));
 		String text = txtAboutSelenium.getText();
 		System.out.println(text);		
-	
+		System.out.println(text1);
+		System.out.println(text1);
 	
 }
 }
